@@ -1,0 +1,10 @@
+Inicializando o Repositório na Nuvem
+
+Comandos de criação da pasta:
+mkdir "git-course"
+Entrar na pasta:
+cd git-course
+
+git init --> Inicializar repositório no ecossistema do git:
+cd "git-course"  ---> Entra dentro da pasta.
+ls -la --> Lista os documentos existentes detalhadamente.
