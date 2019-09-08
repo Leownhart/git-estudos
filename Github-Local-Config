@@ -1,0 +1,18 @@
+GitHub Configuração Local
+
+Comandos para configurações básicas :
+
+Configuração de User:
+git config --global user.name "Leownhart"
+
+Configuração de E-mail:
+git config --global user.email "francisco.amartins.al@gmail.com"
+
+Configuração editor Principal:
+git config --global core.editor  "vim"      (vim, emacs, sublime, etc..)
+
+Identificar valor das Chaves:
+git config user.name
+git config user.email
+git config --list
+
