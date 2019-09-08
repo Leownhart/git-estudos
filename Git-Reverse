@@ -1,0 +1,10 @@
+Github (Comandos de Reversão de Estado)
+
+git checkout "Readme.md" - Desfaz a mudança realizada no estado de edição.
+git reset HEAD "Readme.md" - Retira o arquivo do staged.
+
+git reset --soft, --mixed, --hard:  (coloque a Chave)
+
+--soft --> reseta o commit para staged.
+--mixed --> reseta para antes do modified.
+--hard --> retorna tudo para antes da modificação.
