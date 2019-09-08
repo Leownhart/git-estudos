@@ -1,0 +1,21 @@
+Gitignore
+
+Criar arquivo (( .gitignore )) é especificar a exclusão das extensões. desejadas.
+como .json, .xls, etc....
+---------------------------------STASH-----------------------------------------
+git stash --> guarda a modificação e a deixa em estado de retomada para trabalho.
+git stash apply --> aplicará as mudanças armazenadas.
+git stash list --> lista todos os stash realizados.
+git stash clear --> limpa todas as modificações armazenadas.
+
+---------------------------------ATALHOS----------------------------------------
+git config --global alias.s status --> criação exemplo de atalho.
+----------------------------------TAGS-----------------------------------------
+git tag --> lista todas a tags existentes.
+git tag -a 1.0.0 -m "Readme finalizado" -- Criação de tag
+git push origin master --tags --> sobe as tags rapa o repositório remoto.
+-------------------------------REVERSÃO-----------------------------------------
+git revert "chave do commit" --> irá reverter o commit.
+------------ -----------------APAGANDO TAGS-------------------------------------
+git tag -d "1.0.1" --> apaga a tag designada.
+git push origin:1.0.1 --> apaga a tag designada no repositório remoto.
