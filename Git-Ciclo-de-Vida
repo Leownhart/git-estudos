@@ -1,0 +1,17 @@
+Git github (Ciclo de vida e estados dos arquivos)
+
+git status --> reporta o estado  do repositório
+git add "Readme.md" --> adiciona o arquivo para reconhecimento do git
+git commit -m "Readme.md" --> Criação de uma nova versão, SnapShot.
+git commit -am "Readme.md" --> Criação de uma nova versão, SnapShot.
+-------------------------------LOGS--------------------------------------------
+git log --> Informações do commit
+git log --decorate --> Mais detalhes
+git log --author="Francisco" --> informações do autor
+git log --graph --> Mostra em forma gráfica o status das versões
+git shortlog --> mostra quais autores e informações de quantidades.
+git shortlog -sn --> somente quantidade de commits e a pessoa responsável.
+git show "d495038e490a0fe9d9720c449427fe50c8740552" visualiza informações de modificação.
+--------------------------------DIFF-------------------------------------------
+git diff --> informa a modificação diretamente no prompt.
+git diff --name-only --> mostra somente o nome do arquivo modificado.
