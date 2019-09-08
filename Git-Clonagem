@@ -1,0 +1,24 @@
+Comandos de Clonagem dentro do CMD Github:
+
+(git clone git@github.com:leownahart/Estudos.git -- github-course-clone) --> Clona os arquivos para uma nova pasta.
+-----------------------------BRANCH-----------------------------------------
+É UM PONTEIRO MÓVEL QUE LEVA UM COMMIT
+
+• Poder modificar sem alterar o local principal (master)
+• Facilmente "Desligável"
+•  Múltiplas pessoas trabalhando.
+•  Evita conflitos
+
+Comandos de criação:
+git branch -->  lista os branchs disponiveis.
+git checkout -b "branch" --> Cria um novo branch.
+git checkout "branch" --> vai para o branch designado.
+git branch -D "branch" --> Delete o branch  designado.
+
+---------------------------UNIÃO BRANCH-----------------------------------------
+(Passo a Passo Merge)   (((VERIFICAR ESSE ASSUNTO)))
+git merge "test"
+(Passo a Passo Rebase)
+git rebase "rebase-branch"
+
+
